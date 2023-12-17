@@ -1,7 +1,7 @@
 
 <div align="center">
     <img src="https://i.pinimg.com/originals/a2/f4/62/a2f462f4b330fc5929d6cf719a415434.gif" />
-    <h1>Welcome to the Awesome Project Ideas Repository! 🚀</h1>
+    <h1>Welcome to the Awesome Project Ideas Repository! 🚀 </h1>
     <p>This repository is a space for creative minds to collaborate on innovative project ideas and bring them to life. Whether you're an experienced developer or a newcomer, we invite you to contribute your ideas and expertise to make this repository a hub of inspiration and collaboration.</p>
 </div>
 
