@@ -8,6 +8,7 @@
 ## How to Contribute
 
 For detailed instructions on how to contribute, please check our [Contributing Guidelines](CONTRIBUTING.md).
+If you are feeling less confident about contributing, consider exploring this [repository](https://github.com/EddieHubCommunity/open-source-practice) to become more familiar with Open Source.
 
 ## Code of Conduct
 
