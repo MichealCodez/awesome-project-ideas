@@ -1,7 +1,6 @@
 ---
-name: Project Idea Proposal
+name: "[Project Idea] - Your Project Idea Title"
 about: Propose a new project idea for collaboration
-title: "[Project Idea] - Your Project Idea Title"
 ---
 
 ## Project Idea
