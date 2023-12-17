@@ -18,7 +18,7 @@ To contribute to this project, follow these steps:
 
 3. **Add Your Project Idea:**
    - Inside the [projects](projects) folder, create a new folder with the name of your project idea.
-   - Create a `README.md` file inside the project folder and provide a detailed explanation of your project idea. Include any relevant information, such as the problem it solves, technologies involved, and potential features.
+   - Create a `README.md` file inside the project folder and provide a detailed explanation of your project idea. Include any relevant information, such as the problem it solves, technologies involved, and potential features. See [readme example](projects/readme_example.md) for template.
 
 4. **Commit Changes:**
    - Commit your changes to the branch you created in your forked repository.
