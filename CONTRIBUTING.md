@@ -44,6 +44,6 @@ If you're interested in working on a specific project idea:
 
 ## Code of Conduct
 
-Please note that we have a Code of Conduct, and contributors are expected to adhere to it. By participating in this project, you agree to abide by its terms.
+Please note that we have a [Code of Conduct](CODE_OF_CONDUCT.md), and contributors are expected to adhere to it. By participating in this project, you agree to abide by its terms.
 
 We appreciate your contribution and look forward to building amazing projects together!
