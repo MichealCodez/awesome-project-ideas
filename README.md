@@ -9,6 +9,10 @@
 
 For detailed instructions on how to contribute, please check our [Contributing Guidelines](CONTRIBUTING.md).
 
+## Code of Conduct
+
+Please note that we have a [Code of Conduct](CODE_OF_CONDUCT.md), and contributors are expected to adhere to it. By participating in this project, you agree to abide by its terms.
+
 ## Let's Build Amazing Projects Together!
 
 We appreciate your interest and look forward to seeing your creativity come to life. Let's make this repository a source of inspiration and collaboration. Happy coding! 🌟
