@@ -25,4 +25,4 @@ If you have a specific approach or implementation in mind, outline it here. Othe
 
 **Note:** Before submitting, make sure to check if a similar project idea has been proposed. If so, consider joining efforts by contributing to the existing proposal.
 
-By submitting this issue, I agree to follow the [Code of Conduct](../CODE_OF_CONDUCT.md) of this repository.
+By submitting this issue, I agree to follow the [Code of Conduct](https://github.com/MichealCodez/awesome-project-ideas/blob/main/CODE_OF_CONDUCT.md) of this repository.
