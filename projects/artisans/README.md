@@ -31,4 +31,4 @@ Artisans is an open-source project, and we welcome contributions from developers
 
 ---
 
-By submitting this issue, I agree to follow the [Code of Conduct](../CODE_OF_CONDUCT.md) of this repository.
+By submitting this issue, I agree to follow the [Code of Conduct](https://github.com/MichealCodez/awesome-project-ideas/blob/main/CODE_OF_CONDUCT.md) of this repository.
