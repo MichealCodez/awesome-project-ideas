@@ -15,9 +15,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# To avoid errors when signing in with google. 
+SITE_ID = 2
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -29,6 +30,11 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'corsheaders',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
 ]
 
 MIDDLEWARE = [
@@ -41,7 +47,21 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     'corsheaders.middleware.CorsMiddleware', # We added this line to enable cors.
+    'allauth.account.middleware.AccountMiddleware',
 ]
+
+# This is specifying the social account providers.
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+        }
+    }
+}
 
 ROOT_URLCONF = 'backend.urls'
 
@@ -119,3 +139,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # We added these two line to enable cors.
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_DEFAULT_ALLOW_CREDENTIALS = True
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
+
+# This is to specify the url to redirect to after login and logout.
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
